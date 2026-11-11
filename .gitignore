@@ -1,0 +1,22 @@
+# 依赖与构建产物
+node_modules/
+dist/
+*.log
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本地凭据与临时文件 —— 任何情况下都不要提交
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.token
+credentials.*
+**/*.bak-*

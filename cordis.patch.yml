@@ -1,0 +1,5 @@
+# Host half: translation routes over the local web carrier.
+# The `dsh.client` declaration in package.json makes the web app load ./client.js.
+- insert:
+    - id: dsh-translator
+      name: '@local/dsh-translator'
